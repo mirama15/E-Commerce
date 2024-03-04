@@ -1,10 +1,9 @@
 # E-Commerce
 Tugas Dicoding Membuat Proyek Data Analisis
-## Instalasi Streamlit
-Dilakukan dalam google collabs :
-! pip install streamlit -q
-## Mengunduh dan menampilkan alamat IP publik perangkat di terminal atau command prompt
-!wget -q -O - ipv4.icanhazip.com
-## Checking dan Running Streamlit melalui Goggle Collabs
-! streamlit run dashboard.py & npx localtunnel --port 8501
+## Setup environment
+conda create --name main-ds python=3.9
+conda activate main-ds
+pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
+## Running Streamlit
+streamlit run dashboard.py
 
